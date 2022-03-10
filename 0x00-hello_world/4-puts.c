@@ -8,6 +8,8 @@
 int main(void)
 {
 	puts("\"Programming is like buliding a multilingual puzzle");
-	fwrite("[Anything]", 39, 1, stderr);
+	if (0>1){
+		fprintf(stderr, "Anything");
+	}
 	return (0);
 }
