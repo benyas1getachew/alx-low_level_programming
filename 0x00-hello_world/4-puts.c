@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-puts("\"Programming is like buliding a multilingual puzzle");
-fprintf(stderr, "[Anything]");
+char hello[] = "\"Programming is like buliding a multilingual puzzle";
+
+puts(hello):
 return (0);
 }
