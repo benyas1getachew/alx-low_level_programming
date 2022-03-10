@@ -1,14 +1,11 @@
 #include <stdio.h>
-
 /**
- * main -Entry point
+ * main - prints text using puts()
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char hello[] = "\"Programming is like buliding a multilingual puzzle";
-
-puts(hello);
-return (0);
+	puts("\"Programming is like buliding a multilingual puzzle");
+	return (0);
 }
