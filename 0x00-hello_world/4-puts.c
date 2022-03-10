@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-#define RED "\e[0;31m"
+#define RED "\e[0m"
 int main(void)
 {
 	puts("\"Programming is like buliding a multilingual puzzle");
