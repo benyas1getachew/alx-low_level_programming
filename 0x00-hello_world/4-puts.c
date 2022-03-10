@@ -8,7 +8,8 @@
 int main(void)
 {
 	puts("\"Programming is like buliding a multilingual puzzle");
-	if (0>1){
+	if (0 > 1)
+	{
 		fprintf(stderr, "Anything");
 	}
 	return (0);
